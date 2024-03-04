@@ -4,8 +4,8 @@ import { TaskDetailsComponent } from './task-details/task-details.component';
 import { TaskFilterComponent } from './task-filter/task-filter.component';
 
 export const routes: Routes = [
-    {path: 'tasklist', title: 'Lista de Tarefas', component: TaskListComponent},
-    {path: 'taskdetails/:id', title: 'Detalhes da Tarefa', component: TaskDetailsComponent},
-    {path: '', redirectTo: '/tasklist', pathMatch: 'full'}
+    {path: 'taskList', title: 'Lista de Tarefas', component: TaskListComponent},
+    {path: 'taskDetails/:id', title: 'Detalhes da Tarefa', component: TaskDetailsComponent},
+    {path: '', redirectTo: '/taskList', pathMatch: 'full'}
 
 ];
