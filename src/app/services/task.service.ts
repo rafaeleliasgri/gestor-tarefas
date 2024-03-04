@@ -8,7 +8,7 @@ export class TaskService {
 
   constructor() { }
 
-  private tasks: Array<Task> = {};
+  private tasks: Array<Task> = [];
 
   getTasks(): Array<Task> {
 
